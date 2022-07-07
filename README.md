@@ -8,8 +8,10 @@ This project was generated using [Nx](https://nx.dev).
 
 🔎 **Smart, Fast and Extensible Build System**
 
-npm i -g nx
-npx create-nx-workspace nx-vsoft --preset=angular
+- npm i -g nx
+- npx create-nx-workspace nx-vsoft --preset=angular
+- npm i bootstrap
+- npm i bootswatch
 
 ## Quick Start & Documentation
 
