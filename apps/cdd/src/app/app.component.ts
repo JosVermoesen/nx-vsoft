@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'nx-vsoft-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'cdd';
+  domEntryForm: FormGroup | undefined;
+
+  constructor(private fb: FormBuilder) {
+    this.domEntryForm = this.fb.group({
+      whatever: ['', [Validators.required]],
+      whatever2: ['', [Validators.required]],
+    });
+  }
 }

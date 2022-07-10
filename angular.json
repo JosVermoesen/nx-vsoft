@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "cdd": "apps/cdd",
-    "cdd-e2e": "apps/cdd-e2e"
+    "cdd-e2e": "apps/cdd-e2e",
+    "vsoft-interfaces": "libs/vsoft-interfaces"
   }
 }
